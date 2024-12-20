@@ -1,0 +1,142 @@
+*{
+  font-family: customFont!important;
+}
+
+.container{
+  margin:0 !important;
+  padding: 0 !important;
+}
+.login-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-page-content{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid palevioletred;
+  padding: 50px;
+  width: 80%;
+  height: 70%;
+}
+.login-form{
+  display: flex;
+  align-items: center;
+  width: 70%;
+  flex-direction: column;
+}
+.center-item{
+  display: flex;
+  justify-content: center;
+}
+.login-button{
+  height: 45px;
+  width: 150px;
+}
+.test{ 
+  height: 300px !important;
+} 
+
+.app {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: fixed;
+}
+.content_body{
+  background-color: rgb(223, 255, 216);
+  width: 100%;
+  height: 100%;
+}
+.content{
+  width: 100% !important;
+  margin-top:30px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.row{
+  height: 80%;
+}
+
+.headContent{
+  display: inline;
+  font: bold;
+}
+
+/* .content_body{
+  background-color: rgb(223, 255, 216);
+  width: 100%;
+  height: 90%;
+  overflow: scroll;
+}
+.app {
+  display: flex;
+  position: relative;
+}
+.menu-bars {
+  text-decoration: none;
+  color: #000;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+.box-shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.pic-card-content{
+  /* width: 100%;
+  height: 50%; */
+  overflow: clip;
+  overflow-clip-margin: content-box;
+}
+.card-content{
+  border-top: outset;
+  text-align: center;
+}
+.menuItemFunction{
+  display: flex;
+  flex-direction: column;
+}
+.contentSearchVoucher{
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  position: fixed;
+}
+.addMainAccount{
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  position: fixed;
+}
+.recordVoucher{
+  width: 100% !important;
+  height: 100% !important;
+  display: flex;
+  position: fixed;
+}
+.choice-menu-import .row .col a:hover{
+  text-decoration: none;
+}
+#record .card-body{
+  color:black
+}
